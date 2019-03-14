@@ -1,0 +1,70 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: body:16px;
+
+}
+h1 {font-size: 38px; font-weight: bold; line-height: 1.6; color: 000000}
+h2 {font-size: 26px; line-height: 1.6; color: 000000}
+h3 {font-size: 20px; line-height: 1.6; color: 000000}
+p {font-size: 16px; line-height: 1.5; color: 000000}
+figcaption {font-size: 12px;line-height: 1.5; color: 000000}
+
+
+
+nav {
+  background-color: rgba(0,0,0,.5);
+  float: left;
+  position: fixed;
+  width: 100%;
+
+}
+
+a{
+  text-decoration: none;
+}
+a:hover {
+color: #0070BD;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  background-image: url("../images/instagram-pic.jpg");
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
